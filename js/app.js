@@ -2,6 +2,8 @@
 const PER_PAGE = 3;
 // 索引每頁放幾個單字
 const INDEX_PER_PAGE = 90;
+// 要不要顯示 A–Z 索引頁（已經有上方的週次下拉選單可以跳轉，單字多了索引會太長，先關掉）
+const SHOW_INDEX = false;
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -62,7 +64,7 @@ function build(data) {
     }
   });
   const total = pages.reduce((n, p) => n + p.words.length, 0);
-  const idxPages = Math.max(1, Math.ceil(total / INDEX_PER_PAGE));
+  const idxPages = SHOW_INDEX ? Math.max(1, Math.ceil(total / INDEX_PER_PAGE)) : 0;
 
   // 2. 單字頁（頁碼從索引頁之後開始）
   let n = 0;
@@ -81,18 +83,20 @@ function build(data) {
       cards + '<div class="foot">' + pg + '</div></article>';
   }).join('');
 
-  // 3. 索引頁（週次目錄 + A–Z 單字，含頁碼）
-  const weeksHTML = '<div class="weeks">' + data.filter(d => weekPage[d.week]).map(d =>
-    '<a href="#wk-' + esc(d.week) + '">' + esc(d.week) + '（p.' + weekPage[d.week] + '）</a>').join('') + '</div>';
-  const sorted = entries.slice().sort((a, b) => a.word.toLowerCase().localeCompare(b.word.toLowerCase()));
+  // 3. 索引頁（週次目錄 + A–Z 單字，含頁碼）— 目前關閉，改用上方的週次下拉選單
   let idxHTML = '';
-  for (let k = 0; k < idxPages; k++) {
-    const part = sorted.slice(k * INDEX_PER_PAGE, (k + 1) * INDEX_PER_PAGE);
-    idxHTML += '<article class="page index"><div class="head"><span>國小英語單字</span><span>索引</span></div>' +
-      (k === 0 ? weeksHTML : '') +
-      '<div class="idx">' + part.map(e =>
-        '<a href="#' + e.id + '"><span>' + esc(e.word) + '</span><i></i><span>' + e.pg + '</span></a>').join('') + '</div>' +
-      '<div class="foot">' + (k + 1) + '</div></article>';
+  if (SHOW_INDEX) {
+    const weeksHTML = '<div class="weeks">' + data.filter(d => weekPage[d.week]).map(d =>
+      '<a href="#wk-' + esc(d.week) + '">' + esc(d.week) + '（p.' + weekPage[d.week] + '）</a>').join('') + '</div>';
+    const sorted = entries.slice().sort((a, b) => a.word.toLowerCase().localeCompare(b.word.toLowerCase()));
+    for (let k = 0; k < idxPages; k++) {
+      const part = sorted.slice(k * INDEX_PER_PAGE, (k + 1) * INDEX_PER_PAGE);
+      idxHTML += '<article class="page index"><div class="head"><span>國小英語單字</span><span>索引</span></div>' +
+        (k === 0 ? weeksHTML : '') +
+        '<div class="idx">' + part.map(e =>
+          '<a href="#' + e.id + '"><span>' + esc(e.word) + '</span><i></i><span>' + e.pg + '</span></a>').join('') + '</div>' +
+        '<div class="foot">' + (k + 1) + '</div></article>';
+    }
   }
 
   $('#app').innerHTML = idxHTML + wordHTML;
