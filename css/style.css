@@ -35,6 +35,12 @@ body{margin:0;background:var(--desk);color:var(--ink);font:16px/1.6 "Noto Sans T
 .cn{display:block;color:var(--soft);font-size:14px}
 mark{padding:0 2px;border-radius:2px;background:var(--mark);color:inherit}
 
+/* 朗讀按鈕 */
+.say{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin-left:2px;border:0;border-radius:99px;background:transparent;font-size:16px;line-height:1;cursor:pointer;vertical-align:middle}
+.say:hover,.say:focus-visible{background:var(--mark)}
+.w .say{width:32px;height:32px;font-size:19px}
+.no-speech .say{display:none}
+
 /* index */
 .weeks{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:5mm;font-weight:700}
 .weeks a{color:var(--pos)}
@@ -57,6 +63,7 @@ mark{padding:0 2px;border-radius:2px;background:var(--mark);color:inherit}
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
   body{background:none}
   .bar{display:none}
+  .say{display:none}
   .page{width:210mm;height:296mm;margin:0;padding:16mm 16mm 14mm;border-radius:0;box-shadow:none;break-after:page}
   .page:last-child{break-after:auto}
   .foot{position:absolute;margin-top:0}

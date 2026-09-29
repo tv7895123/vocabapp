@@ -7,6 +7,28 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+// 朗讀功能（瀏覽器內建 Web Speech API，免安裝、免金鑰）
+const canSpeak = 'speechSynthesis' in window;
+function speak(text) {
+  if (!canSpeak) return;
+  speechSynthesis.cancel(); // 先停掉上一句，避免排隊愈唸愈慢
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'en-US';
+  u.rate = 0.9; // 給小朋友聽，稍微放慢
+  speechSynthesis.speak(u);
+}
+// 用 data-say 屬性存要唸的文字，事件委派到 #app，一次綁定就好
+function bindSpeech() {
+  if (!canSpeak) { document.body.classList.add('no-speech'); return; }
+  $('#app').addEventListener('click', e => {
+    const btn = e.target.closest('.say');
+    if (btn) speak(btn.dataset.say);
+  });
+}
+function sayBtn(text) {
+  return '<button type="button" class="say" data-say="' + esc(text) + '" aria-label="朗讀">🔊</button>';
+}
+
 function getJSON(url) {
   return fetch(url).then(r => {
     if (!r.ok) throw new Error(url + '（' + r.status + '）');
@@ -20,9 +42,10 @@ function cardHTML(w, id) {
   const rel = (label, cls, arr) =>
     arr && arr.length ? '<span class="' + cls + '">' + label + '</span> ' + arr.map(esc).join('、') : '';
   const relHTML = [rel('近義詞', 'syn', w.synonyms), rel('反義詞', 'ant', w.antonyms)].filter(Boolean).join('　');
-  const exHTML = (w.examples || []).map(e => '<li>' + hl(e.en) + '<span class="cn">' + esc(e.zh) + '</span></li>').join('');
+  const exHTML = (w.examples || []).map(e =>
+    '<li>' + hl(e.en) + sayBtn(e.en) + '<span class="cn">' + esc(e.zh) + '</span></li>').join('');
   return '<section class="card" id="' + id + '" data-q="' + esc((w.word + ' ' + w.zh).toLowerCase()) + '">' +
-    '<div class="w"><span class="en">' + esc(w.word) + '</span>' +
+    '<div class="w"><span class="en">' + esc(w.word) + '</span>' + sayBtn(w.word) +
     (w.kk ? '<span class="kk">[' + esc(w.kk) + ']</span>' : '') +
     (w.pos ? '<span class="pos">' + esc(w.pos) + '</span>' : '') + '</div>' +
     '<div class="zh">' + esc(w.zh) + '</div>' +
@@ -98,6 +121,7 @@ function build(data) {
 
 async function main() {
   try {
+    bindSpeech();
     const m = await getJSON('data/manifest.json');
     const data = await Promise.all(m.weeks.map(w => getJSON('data/' + w + '.json')));
     build(data);
