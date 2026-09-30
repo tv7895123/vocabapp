@@ -1,0 +1,163 @@
+{
+  "subject": "Animals",
+  "words": [
+    {
+      "word": "ant",
+      "kk": "ænt",
+      "pos": "n.",
+      "zh": "螞蟻",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "An ant is very small.", "zh": "螞蟻非常小。"},
+        {"en": "Ants carry food to their home.", "zh": "螞蟻把食物搬回家。"},
+        {"en": "Many ants are on the cake.", "zh": "蛋糕上有很多螞蟻。"}
+      ]
+    },
+    {
+      "word": "bee",
+      "kk": "bi",
+      "pos": "n.",
+      "zh": "蜜蜂",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A bee is on the flower.", "zh": "一隻蜜蜂停在花上。"},
+        {"en": "Bees make honey.", "zh": "蜜蜂會釀蜂蜜。"}
+      ]
+    },
+    {
+      "word": "beetle",
+      "kk": "ˋbitḷ",
+      "pos": "n.",
+      "zh": "甲蟲",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The beetle has a hard shell.", "zh": "這隻甲蟲有硬硬的殼。"},
+        {"en": "I found a black beetle in the garden.", "zh": "我在花園裡發現一隻黑色的甲蟲。"}
+      ]
+    },
+    {
+      "word": "butterfly",
+      "kk": "ˋbʌtɚˌflaɪ",
+      "pos": "n.",
+      "zh": "蝴蝶",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The butterfly is very beautiful.", "zh": "這隻蝴蝶非常漂亮。"},
+        {"en": "Butterflies fly from flower to flower.", "zh": "蝴蝶在花朵間飛來飛去。"},
+        {"en": "A butterfly was a caterpillar before.", "zh": "蝴蝶以前是毛毛蟲。"}
+      ]
+    },
+    {
+      "word": "caterpillar",
+      "kk": "ˋkætɚˌpɪlɚ",
+      "pos": "n.",
+      "zh": "毛毛蟲",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The caterpillar eats green leaves.", "zh": "毛毛蟲吃綠色的葉子。"},
+        {"en": "A caterpillar changes into a butterfly.", "zh": "毛毛蟲會變成蝴蝶。"}
+      ]
+    },
+    {
+      "word": "cockroach",
+      "kk": "ˋkɑkˌrotʃ",
+      "pos": "n.",
+      "zh": "蟑螂",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I saw a cockroach in the kitchen.", "zh": "我在廚房看到一隻蟑螂。"},
+        {"en": "Many people are afraid of cockroaches.", "zh": "很多人怕蟑螂。"}
+      ]
+    },
+    {
+      "word": "dragonfly",
+      "kk": "ˋdrægənˌflaɪ",
+      "pos": "n.",
+      "zh": "蜻蜓",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The dragonfly is flying over the pond.", "zh": "蜻蜓在池塘上方飛。"},
+        {"en": "A dragonfly has two pairs of big wings.", "zh": "蜻蜓有兩對大翅膀。"}
+      ]
+    },
+    {
+      "word": "grasshopper",
+      "kk": "ˋgræsˌhɑpɚ",
+      "pos": "n.",
+      "zh": "蚱蜢",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The grasshopper jumps high.", "zh": "蚱蜢跳得很高。"},
+        {"en": "A green grasshopper is on the grass.", "zh": "一隻綠色的蚱蜢在草地上。"}
+      ]
+    },
+    {
+      "word": "ladybug",
+      "kk": "ˋledɪˌbʌg",
+      "pos": "n.",
+      "zh": "瓢蟲",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The ladybug has red wings with black dots.", "zh": "瓢蟲有帶黑點的紅色翅膀。"},
+        {"en": "A ladybug landed on my hand.", "zh": "一隻瓢蟲停在我的手上。"}
+      ]
+    },
+    {
+      "word": "mosquito",
+      "kk": "məsˋkito",
+      "pos": "n.",
+      "zh": "蚊子",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A mosquito bit me last night.", "zh": "昨晚有隻蚊子咬我。"},
+        {"en": "Mosquitoes like warm and wet places.", "zh": "蚊子喜歡溫暖潮濕的地方。"}
+      ]
+    },
+    {
+      "word": "snail",
+      "kk": "snel",
+      "pos": "n.",
+      "zh": "蝸牛",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The snail moves very slowly.", "zh": "蝸牛移動得很慢。"},
+        {"en": "A snail carries its house on its back.", "zh": "蝸牛把房子揹在背上。"}
+      ]
+    },
+    {
+      "word": "spider",
+      "kk": "ˋspaɪdɚ",
+      "pos": "n.",
+      "zh": "蜘蛛",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The spider made a web.", "zh": "蜘蛛織了一張網。"},
+        {"en": "I am afraid of the big spider.", "zh": "我怕那隻大蜘蛛。"}
+      ]
+    },
+    {
+      "word": "worm",
+      "kk": "wɝm",
+      "pos": "n.",
+      "zh": "蟲；蚯蚓",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A bird ate the worm.", "zh": "鳥吃掉了那條蟲。"},
+        {"en": "Worms live in the soil.", "zh": "蚯蚓住在土壤裡。"}
+      ]
+    }
+  ]
+}

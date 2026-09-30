@@ -1,0 +1,127 @@
+{
+  "subject": "OrdinalNumbers",
+  "words": [
+    {
+      "word": "first",
+      "kk": "fɝst",
+      "pos": "adj. / adv.",
+      "zh": "第一（的）；首先",
+      "synonyms": [],
+      "antonyms": ["last"],
+      "examples": [
+        {"en": "I am in the first grade.", "zh": "我是一年級。"},
+        {"en": "This is my first English class.", "zh": "這是我的第一堂英語課。"},
+        {"en": "First, wash your hands.", "zh": "首先，把手洗乾淨。"}
+      ]
+    },
+    {
+      "word": "second",
+      "kk": "ˋsɛkənd",
+      "pos": "adj. / n.",
+      "zh": "第二（的）；秒",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She is second in the race.", "zh": "她賽跑得第二名。"},
+        {"en": "Wait a second, please.", "zh": "請等一下。"},
+        {"en": "My birthday is on the second of May.", "zh": "我的生日是五月二日。"}
+      ]
+    },
+    {
+      "word": "third",
+      "kk": "θɝd",
+      "pos": "adj.",
+      "zh": "第三（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "He lives on the third floor.", "zh": "他住在三樓。"},
+        {"en": "This is my third apple.", "zh": "這是我的第三顆蘋果。"}
+      ]
+    },
+    {
+      "word": "fourth",
+      "kk": "fɔrθ",
+      "pos": "adj.",
+      "zh": "第四（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Today is the fourth of July.", "zh": "今天是七月四日。"},
+        {"en": "My sister is in the fourth grade.", "zh": "我妹妹讀四年級。"}
+      ]
+    },
+    {
+      "word": "fifth",
+      "kk": "fɪfθ",
+      "pos": "adj.",
+      "zh": "第五（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I sat in the fifth row.", "zh": "我坐在第五排。"},
+        {"en": "He came in fifth in the race.", "zh": "他賽跑得第五名。"}
+      ]
+    },
+    {
+      "word": "sixth",
+      "kk": "sɪksθ",
+      "pos": "adj.",
+      "zh": "第六（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "We are in the sixth grade.", "zh": "我們是六年級。"},
+        {"en": "Her sixth birthday is next week.", "zh": "她的六歲生日在下週。"}
+      ]
+    },
+    {
+      "word": "seventh",
+      "kk": "ˋsɛvənθ",
+      "pos": "adj.",
+      "zh": "第七（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "He lives on the seventh floor.", "zh": "他住在七樓。"},
+        {"en": "This is the seventh time I read this book.", "zh": "這是我第七次讀這本書。"}
+      ]
+    },
+    {
+      "word": "eighth",
+      "kk": "etθ",
+      "pos": "adj.",
+      "zh": "第八（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Her eighth birthday party is on Saturday.", "zh": "她的八歲生日派對在星期六。"},
+        {"en": "I am eighth in line.", "zh": "我排在第八個。"}
+      ]
+    },
+    {
+      "word": "ninth",
+      "kk": "naɪnθ",
+      "pos": "adj.",
+      "zh": "第九（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "September is the ninth month of the year.", "zh": "九月是一年的第九個月。"},
+        {"en": "The ninth player scored a goal.", "zh": "第九位球員進了一球。"}
+      ]
+    },
+    {
+      "word": "tenth",
+      "kk": "tɛnθ",
+      "pos": "adj.",
+      "zh": "第十（的）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Today is my tenth birthday.", "zh": "今天是我的十歲生日。"},
+        {"en": "October is the tenth month of the year.", "zh": "十月是一年的第十個月。"}
+      ]
+    }
+  ]
+}

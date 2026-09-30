@@ -1,0 +1,66 @@
+{
+  "subject": "CardinalNumbers",
+  "words": [
+    {
+      "word": "hundred",
+      "kk": "ˋhʌndrəd",
+      "pos": "n. / adj.",
+      "zh": "一百；一百的",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "There are one hundred students in our school.", "zh": "我們學校有一百位學生。"},
+        {"en": "I have two hundred stickers.", "zh": "我有兩百張貼紙。"},
+        {"en": "Hundreds of people came to the park.", "zh": "數百人來到了公園。"}
+      ]
+    },
+    {
+      "word": "thousand",
+      "kk": "ˋθaʊzṇd",
+      "pos": "n. / adj.",
+      "zh": "一千；一千的",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "This bike costs three thousand dollars.", "zh": "這輛腳踏車要三千元。"},
+        {"en": "There are one thousand books in the library.", "zh": "圖書館裡有一千本書。"}
+      ]
+    },
+    {
+      "word": "million",
+      "kk": "ˋmɪljən",
+      "pos": "n.",
+      "zh": "百萬",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A million people live in this city.", "zh": "這座城市住著一百萬人。"},
+        {"en": "One million is one thousand thousand.", "zh": "一百萬等於一千個一千。"}
+      ]
+    },
+    {
+      "word": "billion",
+      "kk": "ˋbɪljən",
+      "pos": "n.",
+      "zh": "十億",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "There are about eight billion people in the world.", "zh": "世界上大約有八十億人。"},
+        {"en": "One billion is one thousand million.", "zh": "十億等於一千個百萬。"}
+      ]
+    },
+    {
+      "word": "trillion",
+      "kk": "ˋtrɪljən",
+      "pos": "n.",
+      "zh": "兆（一千個十億）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "One trillion is a very, very big number.", "zh": "一兆是一個非常非常大的數字。"},
+        {"en": "A trillion is bigger than a billion.", "zh": "一兆比十億大。"}
+      ]
+    }
+  ]
+}

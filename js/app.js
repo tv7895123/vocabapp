@@ -2,7 +2,7 @@
 const PER_PAGE = 3;
 // 索引每頁放幾個單字
 const INDEX_PER_PAGE = 90;
-// 要不要顯示 A–Z 索引頁（已經有上方的週次下拉選單可以跳轉，單字多了索引會太長，先關掉）
+// 要不要顯示 A–Z 索引頁（已經有上方的主題下拉選單可以跳轉，單字多了索引會太長，先關掉）
 const SHOW_INDEX = false;
 
 const $ = s => document.querySelector(s);
@@ -56,11 +56,11 @@ function cardHTML(w, id) {
 }
 
 function build(data) {
-  // 1. 依週次切成每頁 PER_PAGE 個單字
+  // 1. 依主題（subject）切成每頁 PER_PAGE 個單字
   const pages = [];
   data.forEach(d => {
     for (let i = 0; i < d.words.length; i += PER_PAGE) {
-      pages.push({ week: d.week, first: i === 0, words: d.words.slice(i, i + PER_PAGE) });
+      pages.push({ subject: d.subject, first: i === 0, words: d.words.slice(i, i + PER_PAGE) });
     }
   });
   const total = pages.reduce((n, p) => n + p.words.length, 0);
@@ -69,30 +69,30 @@ function build(data) {
   // 2. 單字頁（頁碼從索引頁之後開始）
   let n = 0;
   const entries = [];
-  const weekPage = {};
+  const subjectPage = {};
   const wordHTML = pages.map((p, i) => {
     const pg = idxPages + 1 + i;
-    if (p.first) weekPage[p.week] = pg;
+    if (p.first) subjectPage[p.subject] = pg;
     const cards = p.words.map(w => {
       const id = 'w' + (n++);
       entries.push({ word: w.word, id: id, pg: pg });
       return cardHTML(w, id);
     }).join('');
-    return '<article class="page"' + (p.first ? ' id="wk-' + esc(p.week) + '"' : '') + '>' +
-      '<div class="head"><span>國小英語單字</span><span>' + esc(p.week) + '</span></div>' +
+    return '<article class="page"' + (p.first ? ' id="sub-' + esc(p.subject) + '"' : '') + '>' +
+      '<div class="head"><span>國小英語單字</span><span>' + esc(p.subject) + '</span></div>' +
       cards + '<div class="foot">' + pg + '</div></article>';
   }).join('');
 
-  // 3. 索引頁（週次目錄 + A–Z 單字，含頁碼）— 目前關閉，改用上方的週次下拉選單
+  // 3. 索引頁（主題目錄 + A–Z 單字，含頁碼）— 目前關閉，改用上方的主題下拉選單
   let idxHTML = '';
   if (SHOW_INDEX) {
-    const weeksHTML = '<div class="weeks">' + data.filter(d => weekPage[d.week]).map(d =>
-      '<a href="#wk-' + esc(d.week) + '">' + esc(d.week) + '（p.' + weekPage[d.week] + '）</a>').join('') + '</div>';
+    const subjectsHTML = '<div class="subjects">' + data.filter(d => subjectPage[d.subject]).map(d =>
+      '<a href="#sub-' + esc(d.subject) + '">' + esc(d.subject) + '（p.' + subjectPage[d.subject] + '）</a>').join('') + '</div>';
     const sorted = entries.slice().sort((a, b) => a.word.toLowerCase().localeCompare(b.word.toLowerCase()));
     for (let k = 0; k < idxPages; k++) {
       const part = sorted.slice(k * INDEX_PER_PAGE, (k + 1) * INDEX_PER_PAGE);
       idxHTML += '<article class="page index"><div class="head"><span>國小英語單字</span><span>索引</span></div>' +
-        (k === 0 ? weeksHTML : '') +
+        (k === 0 ? subjectsHTML : '') +
         '<div class="idx">' + part.map(e =>
           '<a href="#' + e.id + '"><span>' + esc(e.word) + '</span><i></i><span>' + e.pg + '</span></a>').join('') + '</div>' +
         '<div class="foot">' + (k + 1) + '</div></article>';
@@ -101,16 +101,16 @@ function build(data) {
 
   $('#app').innerHTML = idxHTML + wordHTML;
 
-  // 4. 工具列：週次跳轉、搜尋、列印
-  const sel = $('#wk');
-  data.filter(d => weekPage[d.week]).forEach(d => {
+  // 4. 工具列：主題跳轉、搜尋、列印
+  const sel = $('#sub');
+  data.filter(d => subjectPage[d.subject]).forEach(d => {
     const o = document.createElement('option');
-    o.value = d.week;
-    o.textContent = d.week;
+    o.value = d.subject;
+    o.textContent = d.subject;
     sel.appendChild(o);
   });
   sel.onchange = () => {
-    const t = document.getElementById('wk-' + sel.value);
+    const t = document.getElementById('sub-' + sel.value);
     if (t) t.scrollIntoView();
     sel.value = '';
   };
@@ -127,7 +127,7 @@ async function main() {
   try {
     bindSpeech();
     const m = await getJSON('data/manifest.json');
-    const data = await Promise.all(m.weeks.map(w => getJSON('data/' + w + '.json')));
+    const data = await Promise.all(m.subjects.map(s => getJSON('data/' + s + '.json')));
     build(data);
   } catch (e) {
     $('#app').innerHTML = '<p class="err">讀取資料失敗：' + esc(e.message) +
