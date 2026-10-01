@@ -1,4 +1,4 @@
-:root{--paper:#FFFDF7;--ink:#22303C;--soft:#66717D;--line:#D9D2C0;--mark:#FFE27A;--pos:#2C7A5B;--anti:#C8503F;--desk:#E9E6DD}
+:root{--paper:#FFFDF7;--ink:#22303C;--soft:#66717D;--line:#D9D2C0;--mark:#FFE27A;--hl:#E03131;--pos:#2C7A5B;--anti:#C8503F;--desk:#E9E6DD}
 *{box-sizing:border-box}
 html{scroll-padding-top:72px}
 body{margin:0;background:var(--desk);color:var(--ink);font:16px/1.6 "Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif}
@@ -21,7 +21,7 @@ body{margin:0;background:var(--desk);color:var(--ink);font:16px/1.6 "Noto Sans T
 .card{margin-bottom:5mm;padding-bottom:5mm;border-bottom:1.5px dashed var(--line)}
 .card:last-of-type{border-bottom:0}
 .w{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
-.en{padding:0 4px;font:700 30px/1.25 "Fredoka","Noto Sans TC",sans-serif;background:linear-gradient(transparent 62%,var(--mark) 62%)}
+.en{padding:0 4px;font:700 30px/1.25 "Fredoka","Noto Sans TC",sans-serif;background:linear-gradient(var(--hl),var(--hl)) left bottom/100% 2px no-repeat}
 .kk{color:var(--soft);font-size:17px}
 .pos{padding:0 10px;border-radius:99px;background:var(--pos);color:#fff;font-size:13px}
 .zh{margin:2px 0 4px;font-size:19px;font-weight:700}
@@ -30,10 +30,11 @@ body{margin:0;background:var(--desk);color:var(--ink);font:16px/1.6 "Noto Sans T
 .syn{color:var(--pos)}
 .ant{color:var(--anti)}
 .ex{margin:6px 0 0;padding:0;list-style:none;font-size:15px}
-.ex li{position:relative;padding-left:14px}
+.ex li{position:relative;padding-left:14px;margin-top:10px}
+.ex li:first-child{margin-top:0}
 .ex li::before{content:"•";position:absolute;left:0;color:var(--pos)}
 .cn{display:block;color:var(--soft);font-size:14px}
-mark{padding:0 2px;border-radius:2px;background:var(--mark);color:inherit}
+mark{padding:0;background:linear-gradient(var(--hl),var(--hl)) left bottom/100% 2px no-repeat;color:inherit}
 
 /* 朗讀按鈕 */
 .say{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin-left:2px;border:0;border-radius:99px;background:transparent;font-size:16px;line-height:1;cursor:pointer;vertical-align:middle}
