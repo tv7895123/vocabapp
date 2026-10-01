@@ -1,0 +1,204 @@
+{
+  "subject": "Weather",
+  "source": "claude",
+  "words": [
+    {
+      "word": "weather",
+      "kk": "ˋwɛðɚ",
+      "pos": "n.",
+      "zh": "天氣",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "What is the weather like today?", "zh": "今天天氣怎麼樣？"},
+        {"en": "The weather is nice today.", "zh": "今天天氣很好。"},
+        {"en": "I check the weather before I go out.", "zh": "我出門前會查看天氣。"}
+      ]
+    },
+    {
+      "word": "sunny",
+      "kk": "ˋsʌnɪ",
+      "pos": "adj.",
+      "zh": "晴朗的",
+      "synonyms": [],
+      "antonyms": ["cloudy"],
+      "examples": [
+        {"en": "It is sunny today.", "zh": "今天是晴天。"},
+        {"en": "We go to the park on sunny days.", "zh": "晴天時我們會去公園。"}
+      ]
+    },
+    {
+      "word": "cloudy",
+      "kk": "ˋklaʊdɪ",
+      "pos": "adj.",
+      "zh": "多雲的；陰天的",
+      "synonyms": [],
+      "antonyms": ["sunny"],
+      "examples": [
+        {"en": "It is cloudy this morning.", "zh": "今天早上是陰天。"},
+        {"en": "It is cloudy, but it is not raining.", "zh": "天氣多雲，但沒有下雨。"}
+      ]
+    },
+    {
+      "word": "rainy",
+      "kk": "ˋrenɪ",
+      "pos": "adj.",
+      "zh": "下雨的；多雨的",
+      "synonyms": [],
+      "antonyms": ["sunny"],
+      "examples": [
+        {"en": "It is rainy today.", "zh": "今天下雨。"},
+        {"en": "I don't like rainy days.", "zh": "我不喜歡下雨天。"},
+        {"en": "Take an umbrella on a rainy day.", "zh": "下雨天要帶傘。"}
+      ]
+    },
+    {
+      "word": "windy",
+      "kk": "ˋwɪndɪ",
+      "pos": "adj.",
+      "zh": "有風的；風大的",
+      "synonyms": [],
+      "antonyms": ["calm"],
+      "examples": [
+        {"en": "It is very windy today.", "zh": "今天風很大。"},
+        {"en": "A windy day is good for flying a kite.", "zh": "風大的日子很適合放風箏。"}
+      ]
+    },
+    {
+      "word": "snowy",
+      "kk": "ˋsnoɪ",
+      "pos": "adj.",
+      "zh": "下雪的；積雪的",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "It is snowy in the mountains.", "zh": "山上在下雪。"},
+        {"en": "The children play in the snowy park.", "zh": "孩子們在積著雪的公園裡玩。"}
+      ]
+    },
+    {
+      "word": "stormy",
+      "kk": "ˋstɔrmɪ",
+      "pos": "adj.",
+      "zh": "有暴風雨的",
+      "synonyms": [],
+      "antonyms": ["calm"],
+      "examples": [
+        {"en": "It was stormy last night.", "zh": "昨晚有暴風雨。"},
+        {"en": "Don't go out on a stormy night.", "zh": "暴風雨的夜晚不要出門。"}
+      ]
+    },
+    {
+      "word": "foggy",
+      "kk": "ˋfɑgɪ",
+      "pos": "adj.",
+      "zh": "有霧的",
+      "synonyms": [],
+      "antonyms": ["clear"],
+      "examples": [
+        {"en": "It is foggy this morning.", "zh": "今天早上有霧。"},
+        {"en": "It is hard to see on a foggy day.", "zh": "有霧的日子很難看清楚。"}
+      ]
+    },
+    {
+      "word": "hot",
+      "kk": "hɑt",
+      "pos": "adj.",
+      "zh": "熱的；燙的",
+      "synonyms": [],
+      "antonyms": ["cold"],
+      "examples": [
+        {"en": "It is hot in summer.", "zh": "夏天很熱。"},
+        {"en": "The soup is too hot.", "zh": "這碗湯太燙了。"},
+        {"en": "I drink cold water on a hot day.", "zh": "大熱天我喝冷水。"}
+      ]
+    },
+    {
+      "word": "cold",
+      "kk": "kold",
+      "pos": "adj. / n.",
+      "zh": "冷的；感冒",
+      "synonyms": [],
+      "antonyms": ["hot"],
+      "examples": [
+        {"en": "It is cold in winter.", "zh": "冬天很冷。"},
+        {"en": "Put on your coat. It is cold outside.", "zh": "穿上外套，外面很冷。"},
+        {"en": "I have a cold.", "zh": "我感冒了。"}
+      ]
+    },
+    {
+      "word": "warm",
+      "kk": "wɔrm",
+      "pos": "adj.",
+      "zh": "溫暖的",
+      "synonyms": [],
+      "antonyms": ["cool"],
+      "examples": [
+        {"en": "The sun is warm.", "zh": "太陽暖暖的。"},
+        {"en": "Spring is warm and nice.", "zh": "春天溫暖又舒服。"},
+        {"en": "Wear a warm coat.", "zh": "穿一件保暖的外套。"}
+      ]
+    },
+    {
+      "word": "cool",
+      "kk": "kul",
+      "pos": "adj.",
+      "zh": "涼爽的；酷的",
+      "synonyms": [],
+      "antonyms": ["warm"],
+      "examples": [
+        {"en": "It is cool in the evening.", "zh": "傍晚很涼爽。"},
+        {"en": "I want a cool drink.", "zh": "我想喝一杯涼的飲料。"},
+        {"en": "That is a cool bike!", "zh": "那輛腳踏車好酷！"}
+      ]
+    },
+    {
+      "word": "rainbow",
+      "kk": "ˋrenˌbo",
+      "pos": "n.",
+      "zh": "彩虹",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I see a rainbow in the sky.", "zh": "我看到天空中有一道彩虹。"},
+        {"en": "A rainbow has seven colors.", "zh": "彩虹有七種顏色。"}
+      ]
+    },
+    {
+      "word": "thunder",
+      "kk": "ˋθʌndɚ",
+      "pos": "n.",
+      "zh": "雷；雷聲",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I hear thunder.", "zh": "我聽到打雷聲。"},
+        {"en": "The thunder is very loud.", "zh": "雷聲非常大。"}
+      ]
+    },
+    {
+      "word": "lightning",
+      "kk": "ˋlaɪtnɪŋ",
+      "pos": "n.",
+      "zh": "閃電",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I saw lightning in the sky.", "zh": "我看到天空有閃電。"},
+        {"en": "Lightning comes before thunder.", "zh": "閃電在雷聲之前出現。"}
+      ]
+    },
+    {
+      "word": "typhoon",
+      "kk": "taɪˋfun",
+      "pos": "n.",
+      "zh": "颱風",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A typhoon is coming to Taiwan.", "zh": "有颱風要來台灣了。"},
+        {"en": "We stay home when a typhoon comes.", "zh": "颱風來時我們待在家裡。"}
+      ]
+    }
+  ]
+}

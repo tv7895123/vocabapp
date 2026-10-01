@@ -1,0 +1,150 @@
+{
+  "subject": "Months",
+  "source": "claude",
+  "words": [
+    {
+      "word": "January",
+      "kk": "ˋdʒænjuˌɛrɪ",
+      "pos": "n.",
+      "zh": "一月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "January is the first month of the year.", "zh": "一月是一年的第一個月。"},
+        {"en": "We have a winter vacation in January.", "zh": "我們一月有寒假。"}
+      ]
+    },
+    {
+      "word": "February",
+      "kk": "ˋfɛbruˌɛrɪ",
+      "pos": "n.",
+      "zh": "二月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "February is the shortest month.", "zh": "二月是最短的月份。"},
+        {"en": "My birthday is in February.", "zh": "我的生日在二月。"}
+      ]
+    },
+    {
+      "word": "March",
+      "kk": "mɑrtʃ",
+      "pos": "n.",
+      "zh": "三月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "March is the third month of the year.", "zh": "三月是一年的第三個月。"},
+        {"en": "Spring comes in March.", "zh": "春天在三月來到。"}
+      ]
+    },
+    {
+      "word": "April",
+      "kk": "ˋeprəl",
+      "pos": "n.",
+      "zh": "四月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Children's Day is on April fourth.", "zh": "兒童節是四月四日。"},
+        {"en": "April comes after March.", "zh": "四月在三月之後。"}
+      ]
+    },
+    {
+      "word": "May",
+      "kk": "me",
+      "pos": "n.",
+      "zh": "五月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Mother's Day is in May.", "zh": "母親節在五月。"},
+        {"en": "May is the fifth month of the year.", "zh": "五月是一年的第五個月。"}
+      ]
+    },
+    {
+      "word": "June",
+      "kk": "dʒun",
+      "pos": "n.",
+      "zh": "六月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "June is the sixth month of the year.", "zh": "六月是一年的第六個月。"},
+        {"en": "Many students finish school in June.", "zh": "許多學生在六月結束這學年。"}
+      ]
+    },
+    {
+      "word": "July",
+      "kk": "dʒuˋlaɪ",
+      "pos": "n.",
+      "zh": "七月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Summer vacation begins in July.", "zh": "暑假在七月開始。"},
+        {"en": "July is hot and sunny.", "zh": "七月又熱又晴朗。"}
+      ]
+    },
+    {
+      "word": "August",
+      "kk": "ˋɔgəst",
+      "pos": "n.",
+      "zh": "八月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Father's Day in Taiwan is on August eighth.", "zh": "台灣的父親節是八月八日。"},
+        {"en": "August is the eighth month of the year.", "zh": "八月是一年的第八個月。"}
+      ]
+    },
+    {
+      "word": "September",
+      "kk": "sɛpˋtɛmbɚ",
+      "pos": "n.",
+      "zh": "九月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "School starts in September.", "zh": "學校在九月開學。"},
+        {"en": "Teachers' Day is on September twenty-eighth.", "zh": "教師節是九月二十八日。"}
+      ]
+    },
+    {
+      "word": "October",
+      "kk": "ɑkˋtobɚ",
+      "pos": "n.",
+      "zh": "十月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Taiwan's National Day is on October tenth.", "zh": "台灣的國慶日是十月十日。"},
+        {"en": "Halloween is on October thirty-first.", "zh": "萬聖節是十月三十一日。"}
+      ]
+    },
+    {
+      "word": "November",
+      "kk": "noˋvɛmbɚ",
+      "pos": "n.",
+      "zh": "十一月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "November is the eleventh month of the year.", "zh": "十一月是一年的第十一個月。"},
+        {"en": "The weather gets cooler in November.", "zh": "十一月天氣變涼了。"}
+      ]
+    },
+    {
+      "word": "December",
+      "kk": "dɪˋsɛmbɚ",
+      "pos": "n.",
+      "zh": "十二月",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Christmas is on December twenty-fifth.", "zh": "聖誕節是十二月二十五日。"},
+        {"en": "December is the last month of the year.", "zh": "十二月是一年的最後一個月。"}
+      ]
+    }
+  ]
+}
