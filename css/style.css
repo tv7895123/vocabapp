@@ -41,6 +41,52 @@ mark{padding:0 2px;border-radius:2px;background:var(--mark);color:inherit}
 .w .say{width:32px;height:32px;font-size:19px}
 .no-speech .say{display:none}
 
+/* 來源標籤（有多個來源時，顯示在單字卡上） */
+.srcTag{padding:0 8px;border:1px solid var(--soft);border-radius:99px;color:var(--soft);font-size:12px}
+
+/* 測驗對話框 */
+dialog{width:min(94vw,560px);max-height:92vh;padding:20px 20px 16px;border:0;border-radius:14px;background:var(--paper);color:var(--ink);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(20,28,36,.55)}
+dialog h2{margin:0 40px 12px 0;font:700 22px "Fredoka","Noto Sans TC",sans-serif}
+dialog h3{margin:14px 0 6px;font-size:16px}
+.qclose{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;border-radius:99px;background:transparent;color:var(--soft);font-size:20px;cursor:pointer}
+.qclose:hover,.qclose:focus-visible{background:var(--mark)}
+.qf{display:block;margin:0 0 12px;padding:0;border:0;font-weight:700}
+.qf legend{padding:0;margin-bottom:4px}
+.qf select,.qf input[type=number]{display:block;margin-top:4px;padding:8px 10px;border:1.5px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-weight:400}
+.qf input[type=number]{width:6em}
+.chk{display:inline-flex;align-items:center;gap:6px;margin:2px 14px 4px 0;font-weight:400;cursor:pointer}
+.chk input{width:18px;height:18px}
+.qmini button{margin:2px 8px 0 0;padding:2px 10px;border:1px solid var(--line);border-radius:99px;background:#fff;color:var(--soft);font:inherit;font-size:13px;cursor:pointer}
+.qinfo{margin:0 0 8px;color:var(--soft);font-size:14px}
+.qerr{min-height:1.4em;margin:0 0 6px;color:var(--anti);font-size:14px}
+.qact{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.qbtn{padding:10px 16px;border:2px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);font:700 16px "Noto Sans TC",sans-serif;cursor:pointer}
+.qbtn.pri{border-color:var(--pos);background:var(--pos);color:#fff}
+.qbtn:focus-visible,.opt:focus-visible,.qmini button:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
+.qmeta{display:flex;justify-content:space-between;margin-right:40px;color:var(--soft);font-size:14px}
+.qask{margin:12px 0 4px;color:var(--soft);font-size:15px}
+.qword{font:700 34px/1.25 "Fredoka","Noto Sans TC",sans-serif}
+.qkk{color:var(--soft);font-size:16px}
+.qzh{font-size:26px;font-weight:700;line-height:1.4}
+.qplay{font-size:20px;padding:14px 22px}
+.opts{display:grid;gap:10px;margin:14px 0 8px}
+.opt{min-height:52px;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);font:500 18px/1.4 "Noto Sans TC","Fredoka",sans-serif;text-align:left;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--pos)}
+.opt.ok{border-color:var(--pos);background:#E2F3EA}
+.opt.bad{border-color:var(--anti);background:#FBE6E2}
+.opt:disabled{cursor:default}
+.opt:disabled:not(.ok):not(.bad){opacity:.55}
+.qfb{min-height:2em}
+.qfb p{margin:6px 0}
+.good{color:var(--pos);font-weight:700}
+.miss{color:var(--anti);font-weight:700}
+.qans{font-size:17px}
+.qscore{margin:0 0 4px;font-size:20px}
+.qscore b{font-size:32px;color:var(--pos)}
+.qwrong{margin:0;padding-left:20px}
+.qwrong li{margin:4px 0}
+
 /* index */
 .subjects{display:flex;flex-wrap:wrap;gap:4px 16px;margin-bottom:5mm;font-weight:700}
 .subjects a{color:var(--pos)}

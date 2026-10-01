@@ -12,10 +12,16 @@
 <header class="bar">
   <h1>單字本</h1>
   <input id="q" type="search" placeholder="搜尋單字或中文">
+  <select id="src" hidden aria-label="選擇來源"></select>
   <select id="sub"><option value="">跳到主題</option></select>
+  <button id="qz-open" type="button" hidden>測驗</button>
   <button id="pr" type="button">列印 A4</button>
 </header>
 <main id="app">載入中…</main>
+<dialog id="qz" aria-label="隨機測驗">
+  <button type="button" class="qclose" data-act="close" aria-label="關閉">✕</button>
+  <div id="qz-body"></div>
+</dialog>
 <script src="js/app.js"></script>
 </body>
 </html>
