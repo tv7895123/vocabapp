@@ -1,0 +1,259 @@
+{
+  "subject": "Food",
+  "source": "BEST",
+  "words": [
+    {
+      "word": "broccoli",
+      "kk": "ˋbrɑkəlɪ",
+      "pos": "n.",
+      "zh": "綠花椰菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I like broccoli.", "zh": "我喜歡綠花椰菜。"},
+        {"en": "Broccoli is green and good for you.", "zh": "綠花椰菜是綠色的，對身體很好。"}
+      ]
+    },
+    {
+      "word": "cabbage",
+      "kk": "ˋkæbɪdʒ",
+      "pos": "n.",
+      "zh": "高麗菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "We have cabbage soup for lunch.", "zh": "我們午餐喝高麗菜湯。"},
+        {"en": "The cabbage is big and round.", "zh": "這顆高麗菜又大又圓。"}
+      ]
+    },
+    {
+      "word": "carrot",
+      "kk": "ˋkærət",
+      "pos": "n.",
+      "zh": "紅蘿蔔",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Rabbits like carrots.", "zh": "兔子喜歡紅蘿蔔。"},
+        {"en": "I cut a carrot for the soup.", "zh": "我切了一根紅蘿蔔來煮湯。"}
+      ]
+    },
+    {
+      "word": "celery",
+      "kk": "ˋsɛlərɪ",
+      "pos": "n.",
+      "zh": "芹菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Celery is long and green.", "zh": "芹菜又長又綠。"},
+        {"en": "She puts celery in the soup.", "zh": "她把芹菜放進湯裡。"}
+      ]
+    },
+    {
+      "word": "corn",
+      "kk": "kɔrn",
+      "pos": "n.",
+      "zh": "玉米",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Corn is yellow.", "zh": "玉米是黃色的。"},
+        {"en": "I like sweet corn.", "zh": "我喜歡甜玉米。"}
+      ]
+    },
+    {
+      "word": "cucumber",
+      "kk": "ˋkjukʌmbɚ",
+      "pos": "n.",
+      "zh": "小黃瓜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A cucumber is long and green.", "zh": "小黃瓜又長又綠。"},
+        {"en": "I put cucumber in my sandwich.", "zh": "我在三明治裡放了小黃瓜。"}
+      ]
+    },
+    {
+      "word": "eggplant",
+      "kk": "ˋɛgˌplænt",
+      "pos": "n.",
+      "zh": "茄子",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "An eggplant is purple.", "zh": "茄子是紫色的。"},
+        {"en": "My mom cooks eggplant for dinner.", "zh": "媽媽晚餐煮了茄子。"}
+      ]
+    },
+    {
+      "word": "beans",
+      "kk": "binz",
+      "pos": "n.",
+      "zh": "豆子；豆類",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I eat beans for lunch.", "zh": "我午餐吃豆子。"},
+        {"en": "Green beans are long and thin.", "zh": "四季豆又長又細。"}
+      ]
+    },
+    {
+      "word": "green pepper",
+      "kk": "grin ˋpɛpɚ",
+      "pos": "n.",
+      "zh": "青椒",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I don't like green pepper.", "zh": "我不喜歡青椒。"},
+        {"en": "There is green pepper in the salad.", "zh": "沙拉裡有青椒。"}
+      ]
+    },
+    {
+      "word": "lettuce",
+      "kk": "ˋlɛtɪs",
+      "pos": "n.",
+      "zh": "萵苣；生菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I put lettuce in my hamburger.", "zh": "我在漢堡裡放生菜。"},
+        {"en": "Lettuce is fresh and green.", "zh": "生菜又新鮮又翠綠。"}
+      ]
+    },
+    {
+      "word": "mushroom",
+      "kk": "ˋmʌʃˌrum",
+      "pos": "n.",
+      "zh": "蘑菇；菇類",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Mushrooms grow in the forest.", "zh": "蘑菇長在森林裡。"},
+        {"en": "I like mushroom soup.", "zh": "我喜歡蘑菇湯。"}
+      ]
+    },
+    {
+      "word": "onion",
+      "kk": "ˋʌnjən",
+      "pos": "n.",
+      "zh": "洋蔥",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Onions can make me cry.", "zh": "洋蔥會讓我流眼淚。"},
+        {"en": "She cuts an onion.", "zh": "她切一顆洋蔥。"}
+      ]
+    },
+    {
+      "word": "pea",
+      "kk": "pi",
+      "pos": "n.",
+      "zh": "豌豆",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Peas are small and green.", "zh": "豌豆又小又綠。"},
+        {"en": "I have peas and rice for lunch.", "zh": "我午餐吃豌豆和飯。"}
+      ]
+    },
+    {
+      "word": "potato",
+      "kk": "pəˋteto",
+      "pos": "n.",
+      "zh": "馬鈴薯",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Potatoes grow under the ground.", "zh": "馬鈴薯長在土裡。"},
+        {"en": "Mom makes potato soup.", "zh": "媽媽煮馬鈴薯湯。"}
+      ]
+    },
+    {
+      "word": "pumpkin",
+      "kk": "ˋpʌmpkɪn",
+      "pos": "n.",
+      "zh": "南瓜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "We make a lantern from a pumpkin on Halloween.", "zh": "萬聖節時我們用南瓜做燈籠。"},
+        {"en": "The pumpkin is big and orange.", "zh": "這顆南瓜又大又橘。"}
+      ]
+    },
+    {
+      "word": "chili pepper",
+      "kk": "ˋtʃɪlɪ ˋpɛpɚ",
+      "pos": "n.",
+      "zh": "辣椒",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Chili peppers are very hot.", "zh": "辣椒非常辣。"},
+        {"en": "Do not touch your eyes after you cut a chili pepper.", "zh": "切完辣椒後不要摸眼睛。"}
+      ]
+    },
+    {
+      "word": "spinach",
+      "kk": "ˋspɪnɪtʃ",
+      "pos": "n.",
+      "zh": "菠菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Spinach is good for your body.", "zh": "菠菜對身體很好。"},
+        {"en": "I do not like spinach, but I eat it.", "zh": "我不喜歡菠菜，但我還是會吃。"}
+      ]
+    },
+    {
+      "word": "sweet potato",
+      "kk": "swit pəˋteto",
+      "pos": "n.",
+      "zh": "地瓜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I eat a sweet potato for breakfast.", "zh": "我早餐吃一條地瓜。"},
+        {"en": "Sweet potatoes are sweet and soft.", "zh": "地瓜又甜又軟。"}
+      ]
+    },
+    {
+      "word": "tomato",
+      "kk": "təˋmeto",
+      "pos": "n.",
+      "zh": "番茄",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I put a tomato in the salad.", "zh": "我在沙拉裡放了一顆番茄。"},
+        {"en": "Tomatoes are red.", "zh": "番茄是紅色的。"}
+      ]
+    },
+    {
+      "word": "turnip",
+      "kk": "ˋtɝnɪp",
+      "pos": "n.",
+      "zh": "蕪菁；大頭菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "A turnip grows under the ground.", "zh": "蕪菁長在土裡。"},
+        {"en": "We cook turnip in the soup.", "zh": "我們把蕪菁煮進湯裡。"}
+      ]
+    },
+    {
+      "word": "vegetable",
+      "kk": "ˋvɛdʒtəbḷ",
+      "pos": "n.",
+      "zh": "蔬菜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Eat more vegetables every day.", "zh": "每天要多吃蔬菜。"},
+        {"en": "Carrots and peas are vegetables.", "zh": "紅蘿蔔和豌豆都是蔬菜。"},
+        {"en": "What is your favorite vegetable?", "zh": "你最喜歡的蔬菜是什麼？"}
+      ]
+    }
+  ]
+}
