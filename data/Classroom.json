@@ -1,0 +1,153 @@
+{
+  "subject": "Classroom",
+  "source": "BEST",
+  "words": [
+    {
+      "word": "calendar",
+      "kk": "ˋkæləndɚ",
+      "pos": "n.",
+      "zh": "月曆；日曆",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "There is a calendar on the wall.", "zh": "牆上有一本月曆。"},
+        {"en": "I mark my birthday on the calendar.", "zh": "我在月曆上標出我的生日。"}
+      ]
+    },
+    {
+      "word": "classroom",
+      "kk": "ˋklæsˌrum",
+      "pos": "n.",
+      "zh": "教室",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Our classroom is clean.", "zh": "我們的教室很乾淨。"},
+        {"en": "There are thirty desks in the classroom.", "zh": "教室裡有三十張書桌。"}
+      ]
+    },
+    {
+      "word": "drawer",
+      "kk": "drɔr",
+      "pos": "n.",
+      "zh": "抽屜",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "My pencils are in the drawer.", "zh": "我的鉛筆在抽屜裡。"},
+        {"en": "Open the drawer, please.", "zh": "請打開抽屜。"}
+      ]
+    },
+    {
+      "word": "homework",
+      "kk": "ˋhomˌwɝk",
+      "pos": "n.",
+      "zh": "家庭作業；功課",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I do my homework after school.", "zh": "我放學後寫功課。"},
+        {"en": "Do you have homework today?", "zh": "你今天有功課嗎？"},
+        {"en": "The teacher checks our homework.", "zh": "老師檢查我們的功課。"}
+      ]
+    },
+    {
+      "word": "map",
+      "kk": "mæp",
+      "pos": "n.",
+      "zh": "地圖",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Look at the map.", "zh": "看看這張地圖。"},
+        {"en": "We find Taiwan on the map.", "zh": "我們在地圖上找到台灣。"}
+      ]
+    },
+    {
+      "word": "notebook",
+      "kk": "ˋnotˌbʊk",
+      "pos": "n.",
+      "zh": "筆記本",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I write the new words in my notebook.", "zh": "我把新單字寫在筆記本裡。"},
+        {"en": "This notebook has fifty pages.", "zh": "這本筆記本有五十頁。"}
+      ]
+    },
+    {
+      "word": "page",
+      "kk": "pedʒ",
+      "pos": "n.",
+      "zh": "頁；頁面",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Open your book to page ten.", "zh": "把書翻到第十頁。"},
+        {"en": "This book has two hundred pages.", "zh": "這本書有兩百頁。"}
+      ]
+    },
+    {
+      "word": "painting",
+      "kk": "ˋpentɪŋ",
+      "pos": "n.",
+      "zh": "畫；繪畫",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "This is a beautiful painting.", "zh": "這是一幅美麗的畫。"},
+        {"en": "My sister likes painting.", "zh": "我姐姐喜歡畫畫。"}
+      ]
+    },
+    {
+      "word": "paper",
+      "kk": "ˋpepɚ",
+      "pos": "n.",
+      "zh": "紙",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I need a piece of paper.", "zh": "我需要一張紙。"},
+        {"en": "Paper is made from trees.", "zh": "紙是用樹做的。"}
+      ]
+    },
+    {
+      "word": "picture",
+      "kk": "ˋpɪktʃɚ",
+      "pos": "n.",
+      "zh": "圖畫；照片",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "I draw a picture in art class.", "zh": "我在美術課畫了一張圖。"},
+        {"en": "Look at the picture on the wall.", "zh": "看牆上的那張圖畫。"},
+        {"en": "She takes a picture of the flowers.", "zh": "她拍了一張花的照片。"}
+      ]
+    },
+    {
+      "word": "poster",
+      "kk": "ˋpostɚ",
+      "pos": "n.",
+      "zh": "海報",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "There is a big poster in the classroom.", "zh": "教室裡有一張大海報。"},
+        {"en": "We make a poster for the school festival.", "zh": "我們為校慶製作了一張海報。"}
+      ]
+    },
+    {
+      "word": "seat",
+      "kk": "sit",
+      "pos": "n.",
+      "zh": "座位",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "This is my seat.", "zh": "這是我的座位。"},
+        {"en": "Please take a seat.", "zh": "請坐。"},
+        {"en": "There is an empty seat next to me.", "zh": "我旁邊有個空位。"}
+      ]
+    }
+  ]
+}
