@@ -1,0 +1,162 @@
+{
+  "subject": "ClothesAndAccessories",
+  "source": "BEST",
+  "words": [
+    {
+      "word": "hair clips",
+      "kk": "hɛr klɪps",
+      "pos": "n.",
+      "zh": "髮夾",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears two hair clips.", "zh": "她戴著兩個髮夾。"},
+        {"en": "I have many colorful hair clips.", "zh": "我有很多彩色的髮夾。"}
+      ]
+    },
+    {
+      "word": "hairband",
+      "kk": "ˋhɛrˌbænd",
+      "pos": "n.",
+      "zh": "髮帶；髮箍",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "My sister wears a red hairband.", "zh": "我姐姐戴著一條紅色髮帶。"},
+        {"en": "The hairband is very cute.", "zh": "這條髮帶非常可愛。"}
+      ]
+    },
+    {
+      "word": "necklace",
+      "kk": "ˋnɛklɪs",
+      "pos": "n.",
+      "zh": "項鍊",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears a gold necklace.", "zh": "她戴著一條金項鍊。"},
+        {"en": "This necklace is a gift from my mom.", "zh": "這條項鍊是媽媽送我的禮物。"}
+      ]
+    },
+    {
+      "word": "ring",
+      "kk": "rɪŋ",
+      "pos": "n.",
+      "zh": "戒指",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She has a ring on her finger.", "zh": "她的手指上戴著一枚戒指。"},
+        {"en": "That ring is very small.", "zh": "那枚戒指非常小。"}
+      ]
+    },
+    {
+      "word": "earrings",
+      "kk": "ˋɪrˌrɪŋz",
+      "pos": "n.",
+      "zh": "耳環",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears pretty earrings.", "zh": "她戴著漂亮的耳環。"},
+        {"en": "My mom has silver earrings.", "zh": "我媽媽有銀色的耳環。"}
+      ]
+    },
+    {
+      "word": "perfume",
+      "kk": "ˋpɝfjum",
+      "pos": "n.",
+      "zh": "香水",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "The perfume smells sweet.", "zh": "這瓶香水聞起來很香。"},
+        {"en": "My aunt likes to wear perfume.", "zh": "我阿姨喜歡擦香水。"}
+      ]
+    },
+    {
+      "word": "purse",
+      "kk": "pɝs",
+      "pos": "n.",
+      "zh": "錢包；女用小皮包",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She puts her money in the purse.", "zh": "她把錢放進錢包裡。"},
+        {"en": "My purse is on the table.", "zh": "我的錢包在桌上。"}
+      ]
+    },
+    {
+      "word": "bracelet",
+      "kk": "ˋbreslɪt",
+      "pos": "n.",
+      "zh": "手鍊；手環",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears a silver bracelet.", "zh": "她戴著一條銀手鍊。"},
+        {"en": "I made a bracelet for my friend.", "zh": "我為朋友做了一條手鍊。"}
+      ]
+    },
+    {
+      "word": "handbag",
+      "kk": "ˋhændˌbæg",
+      "pos": "n.",
+      "zh": "手提包",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "My mother has a new handbag.", "zh": "我媽媽有一個新的手提包。"},
+        {"en": "She puts her keys in the handbag.", "zh": "她把鑰匙放進手提包裡。"}
+      ]
+    },
+    {
+      "word": "stockings",
+      "kk": "ˋstɑkɪŋz",
+      "pos": "n.",
+      "zh": "絲襪；長襪",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears white stockings.", "zh": "她穿著白色的長襪。"},
+        {"en": "My sister wears stockings in winter.", "zh": "我姐姐冬天穿長襪。"}
+      ]
+    },
+    {
+      "word": "apron",
+      "kk": "ˋeprən",
+      "pos": "n.",
+      "zh": "圍裙",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "Mom wears an apron when she cooks.", "zh": "媽媽煮飯時會穿圍裙。"},
+        {"en": "The apron has two big pockets.", "zh": "這條圍裙有兩個大口袋。"}
+      ]
+    },
+    {
+      "word": "bikini",
+      "kk": "bɪˋkinɪ",
+      "pos": "n.",
+      "zh": "比基尼（兩件式泳裝）",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "She wears a bikini at the beach.", "zh": "她在海灘上穿著比基尼。"},
+        {"en": "That bikini is blue.", "zh": "那件比基尼是藍色的。"}
+      ]
+    },
+    {
+      "word": "makeup",
+      "kk": "ˋmekˌʌp",
+      "pos": "n.",
+      "zh": "化妝品；妝",
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        {"en": "My mom puts on makeup in the morning.", "zh": "我媽媽早上化妝。"},
+        {"en": "Children do not need to wear makeup.", "zh": "小孩子不需要化妝。"}
+      ]
+    }
+  ]
+}
