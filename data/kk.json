@@ -1,0 +1,220 @@
+{
+  "symbols": [
+    {
+      "symbol": "æ", "key": "cat", "week": 1,
+      "tip": "嘴巴張大、嘴角往兩邊拉，聲音介於「ㄚ」和「ㄝ」之間。",
+      "compare": "容易和 [ɛ] 搞混：bad 與 bed。cat 的嘴巴張得比 bed 大。",
+      "words": [
+        {"word": "cat", "kk": "kæt", "zh": "貓", "examples": [{"en": "The cat is on the bed.", "zh": "貓在床上。"}]},
+        {"word": "bag", "kk": "bæg", "zh": "書包；袋子", "examples": [{"en": "My bag is red.", "zh": "我的書包是紅色的。"}]},
+        {"word": "hat", "kk": "hæt", "zh": "帽子", "examples": [{"en": "I have a new hat.", "zh": "我有一頂新帽子。"}]},
+        {"word": "hand", "kk": "hænd", "zh": "手", "examples": [{"en": "Raise your hand.", "zh": "請舉手。"}]},
+        {"word": "map", "kk": "mæp", "zh": "地圖", "examples": [{"en": "Look at the map.", "zh": "看看這張地圖。"}]}
+      ]
+    },
+    {
+      "symbol": "ɛ", "key": "bed", "week": 1,
+      "tip": "嘴巴半開，比 [æ] 小，像短短的「ㄝ」。",
+      "compare": "容易和 [æ] 搞混：bad 與 bed。",
+      "words": [
+        {"word": "bed", "kk": "bɛd", "zh": "床", "examples": [{"en": "I sleep in my bed.", "zh": "我睡在我的床上。"}]},
+        {"word": "pen", "kk": "pɛn", "zh": "筆", "examples": [{"en": "I write with a pen.", "zh": "我用筆寫字。"}]},
+        {"word": "red", "kk": "rɛd", "zh": "紅色的", "examples": [{"en": "The apple is red.", "zh": "蘋果是紅色的。"}]},
+        {"word": "egg", "kk": "ɛg", "zh": "蛋", "examples": [{"en": "I eat an egg every day.", "zh": "我每天吃一顆蛋。"}]},
+        {"word": "ten", "kk": "tɛn", "zh": "十", "examples": [{"en": "I have ten pens.", "zh": "我有十支筆。"}]}
+      ]
+    },
+    {
+      "symbol": "ɪ", "key": "sit", "week": 1,
+      "tip": "嘴巴放鬆，短短的「ㄧ」，不要拉得太緊。",
+      "compare": "容易和 [i] 搞混：sit 與 seat。sit 短而放鬆。",
+      "words": [
+        {"word": "sit", "kk": "sɪt", "zh": "坐", "examples": [{"en": "Please sit down.", "zh": "請坐下。"}]},
+        {"word": "pig", "kk": "pɪg", "zh": "豬", "examples": [{"en": "The pig is fat.", "zh": "那隻豬很胖。"}]},
+        {"word": "big", "kk": "bɪg", "zh": "大的", "examples": [{"en": "This is a big box.", "zh": "這是一個大盒子。"}]},
+        {"word": "fish", "kk": "fɪʃ", "zh": "魚", "examples": [{"en": "I see a fish in the water.", "zh": "我看到水裡有一條魚。"}]},
+        {"word": "milk", "kk": "mɪlk", "zh": "牛奶", "examples": [{"en": "I drink milk in the morning.", "zh": "我早上喝牛奶。"}]}
+      ]
+    },
+    {
+      "symbol": "ɑ", "key": "hot", "week": 2,
+      "tip": "嘴巴張到最大，像醫生請你說「啊」。",
+      "compare": "容易和 [ʌ] 搞混：box 與 bus。",
+      "words": [
+        {"word": "hot", "kk": "hɑt", "zh": "熱的", "examples": [{"en": "The soup is hot.", "zh": "這碗湯很燙。"}]},
+        {"word": "box", "kk": "bɑks", "zh": "盒子", "examples": [{"en": "There is a toy in the box.", "zh": "盒子裡有一個玩具。"}]},
+        {"word": "clock", "kk": "klɑk", "zh": "時鐘", "examples": [{"en": "The clock is on the wall.", "zh": "時鐘掛在牆上。"}]},
+        {"word": "mop", "kk": "mɑp", "zh": "拖把", "examples": [{"en": "I use a mop to clean the floor.", "zh": "我用拖把拖地。"}]},
+        {"word": "pot", "kk": "pɑt", "zh": "鍋子", "examples": [{"en": "Mom cooks soup in a pot.", "zh": "媽媽用鍋子煮湯。"}]}
+      ]
+    },
+    {
+      "symbol": "ʌ", "key": "cup", "week": 2,
+      "tip": "嘴巴半開，聲音短而放鬆，像用力發出的「ㄜ」。",
+      "compare": "容易和 [ɑ] 搞混：box 與 bus。",
+      "words": [
+        {"word": "cup", "kk": "kʌp", "zh": "杯子", "examples": [{"en": "I have a cup of tea.", "zh": "我有一杯茶。"}]},
+        {"word": "bus", "kk": "bʌs", "zh": "公車", "examples": [{"en": "I go to school by bus.", "zh": "我搭公車上學。"}]},
+        {"word": "sun", "kk": "sʌn", "zh": "太陽", "examples": [{"en": "The sun is bright.", "zh": "太陽很明亮。"}]},
+        {"word": "duck", "kk": "dʌk", "zh": "鴨子", "examples": [{"en": "The duck can swim.", "zh": "鴨子會游泳。"}]},
+        {"word": "run", "kk": "rʌn", "zh": "跑", "examples": [{"en": "I can run fast.", "zh": "我跑得很快。"}]}
+      ]
+    },
+    {
+      "symbol": "ɔ", "key": "dog", "week": 2,
+      "tip": "嘴唇圓圓的，像拉長的「ㄛ」，聲音不會滑動。",
+      "compare": "容易和 [o] 搞混：dog 與 go。dog 的嘴型不動，go 會往「ㄨ」收。",
+      "words": [
+        {"word": "dog", "kk": "dɔg", "zh": "狗", "examples": [{"en": "My dog likes to play.", "zh": "我的狗喜歡玩耍。"}]},
+        {"word": "ball", "kk": "bɔl", "zh": "球", "examples": [{"en": "Kick the ball.", "zh": "踢球。"}]},
+        {"word": "door", "kk": "dɔr", "zh": "門", "examples": [{"en": "Please close the door.", "zh": "請把門關上。"}]},
+        {"word": "horse", "kk": "hɔrs", "zh": "馬", "examples": [{"en": "The horse runs fast.", "zh": "馬跑得很快。"}]},
+        {"word": "saw", "kk": "sɔ", "zh": "看見（see 的過去式）", "examples": [{"en": "I saw a bird in the tree.", "zh": "我在樹上看到一隻鳥。"}]}
+      ]
+    },
+    {
+      "symbol": "e", "key": "cake", "week": 3,
+      "tip": "從「ㄝ」慢慢滑向「ㄧ」，聲音和字母 A 的名字一樣。",
+      "compare": "cat [æ]、bed [ɛ] 是短音，cake [e] 是長音，嘴型會滑動。",
+      "words": [
+        {"word": "cake", "kk": "kek", "zh": "蛋糕", "examples": [{"en": "I like chocolate cake.", "zh": "我喜歡巧克力蛋糕。"}]},
+        {"word": "name", "kk": "nem", "zh": "名字", "examples": [{"en": "What is your name?", "zh": "你叫什麼名字？"}]},
+        {"word": "make", "kk": "mek", "zh": "做", "examples": [{"en": "Let's make a cake.", "zh": "我們來做蛋糕吧。"}]},
+        {"word": "rain", "kk": "ren", "zh": "下雨；雨", "examples": [{"en": "It will rain today.", "zh": "今天會下雨。"}]},
+        {"word": "day", "kk": "de", "zh": "天；白天", "examples": [{"en": "Today is a good day.", "zh": "今天是美好的一天。"}]}
+      ]
+    },
+    {
+      "symbol": "i", "key": "bee", "week": 3,
+      "tip": "嘴角往兩邊拉開像微笑，拉長的「ㄧ」。",
+      "compare": "容易和 [ɪ] 搞混：sit 與 seat。seat 長而嘴角拉開。",
+      "words": [
+        {"word": "bee", "kk": "bi", "zh": "蜜蜂", "examples": [{"en": "A bee is on the flower.", "zh": "一隻蜜蜂停在花上。"}]},
+        {"word": "tree", "kk": "tri", "zh": "樹", "examples": [{"en": "The bird is in the tree.", "zh": "鳥在樹上。"}]},
+        {"word": "eat", "kk": "it", "zh": "吃", "examples": [{"en": "I eat breakfast at seven.", "zh": "我七點吃早餐。"}]},
+        {"word": "see", "kk": "si", "zh": "看見", "examples": [{"en": "I can see the moon.", "zh": "我看得到月亮。"}]},
+        {"word": "key", "kk": "ki", "zh": "鑰匙", "examples": [{"en": "I lost my key.", "zh": "我弄丟了我的鑰匙。"}]}
+      ]
+    },
+    {
+      "symbol": "aɪ", "key": "kite", "week": 3,
+      "tip": "從「ㄚ」滑向「ㄧ」，聲音和字母 I 的名字一樣。",
+      "compare": "兩個音連在一起唸，不要拆成「ㄚ」「ㄧ」兩下。",
+      "words": [
+        {"word": "bike", "kk": "baɪk", "zh": "腳踏車", "examples": [{"en": "I ride my bike to the park.", "zh": "我騎腳踏車去公園。"}]},
+        {"word": "kite", "kk": "kaɪt", "zh": "風箏", "examples": [{"en": "The kite is high in the sky.", "zh": "風箏飛得很高。"}]},
+        {"word": "five", "kk": "faɪv", "zh": "五", "examples": [{"en": "I have five fingers.", "zh": "我有五根手指。"}]},
+        {"word": "my", "kk": "maɪ", "zh": "我的", "examples": [{"en": "This is my book.", "zh": "這是我的書。"}]},
+        {"word": "nine", "kk": "naɪn", "zh": "九", "examples": [{"en": "I go to bed at nine.", "zh": "我九點上床睡覺。"}]}
+      ]
+    },
+    {
+      "symbol": "o", "key": "boat", "week": 4,
+      "tip": "嘴唇圓圓的，從「ㄛ」滑向「ㄨ」，聲音和字母 O 的名字一樣。",
+      "compare": "容易和 [ɔ] 搞混：dog 與 go。go 的嘴型會往「ㄨ」收。",
+      "words": [
+        {"word": "boat", "kk": "bot", "zh": "船", "examples": [{"en": "The boat is on the river.", "zh": "船在河上。"}]},
+        {"word": "nose", "kk": "noz", "zh": "鼻子", "examples": [{"en": "I have a small nose.", "zh": "我有一個小小的鼻子。"}]},
+        {"word": "go", "kk": "go", "zh": "去", "examples": [{"en": "Let's go to the park.", "zh": "我們去公園吧。"}]},
+        {"word": "home", "kk": "hom", "zh": "家", "examples": [{"en": "I go home after school.", "zh": "我放學後回家。"}]},
+        {"word": "no", "kk": "no", "zh": "不；沒有", "examples": [{"en": "No, thank you.", "zh": "不用了，謝謝。"}]}
+      ]
+    },
+    {
+      "symbol": "u", "key": "moon", "week": 4,
+      "tip": "嘴唇嘟成小圓，拉長的「ㄨ」。",
+      "compare": "容易和 [ʊ] 搞混：food 與 foot。food 長而嘴唇嘟緊。",
+      "words": [
+        {"word": "moon", "kk": "mun", "zh": "月亮", "examples": [{"en": "The moon is round.", "zh": "月亮是圓的。"}]},
+        {"word": "blue", "kk": "blu", "zh": "藍色的", "examples": [{"en": "The sky is blue.", "zh": "天空是藍色的。"}]},
+        {"word": "zoo", "kk": "zu", "zh": "動物園", "examples": [{"en": "We go to the zoo on Sunday.", "zh": "我們星期天去動物園。"}]},
+        {"word": "shoe", "kk": "ʃu", "zh": "鞋子", "examples": [{"en": "My shoes are new.", "zh": "我的鞋子是新的。"}]},
+        {"word": "food", "kk": "fud", "zh": "食物", "examples": [{"en": "This food is good.", "zh": "這個食物很好吃。"}]}
+      ]
+    },
+    {
+      "symbol": "ʊ", "key": "book", "week": 4,
+      "tip": "嘴唇微圓、放鬆，短短的「ㄨ」，不要嘟太緊。",
+      "compare": "容易和 [u] 搞混：food 與 foot。foot 短而放鬆。",
+      "words": [
+        {"word": "book", "kk": "bʊk", "zh": "書", "examples": [{"en": "I read a book every night.", "zh": "我每天晚上讀一本書。"}]},
+        {"word": "good", "kk": "gʊd", "zh": "好的", "examples": [{"en": "You are a good student.", "zh": "你是一個好學生。"}]},
+        {"word": "look", "kk": "lʊk", "zh": "看", "examples": [{"en": "Look at the board.", "zh": "請看黑板。"}]},
+        {"word": "foot", "kk": "fʊt", "zh": "腳", "examples": [{"en": "I hurt my foot.", "zh": "我的腳受傷了。"}]},
+        {"word": "cook", "kk": "kʊk", "zh": "煮；廚師", "examples": [{"en": "Dad can cook noodles.", "zh": "爸爸會煮麵。"}]}
+      ]
+    },
+    {
+      "symbol": "ju", "key": "cute", "week": 4, "bonus": true,
+      "tip": "「ㄧ」和「ㄨ」連在一起唸，聽起來像 you。",
+      "compare": "加碼內容：會跟著唸、認得就很好，不用要求完全分清楚。",
+      "words": [
+        {"word": "cute", "kk": "kjut", "zh": "可愛的", "examples": [{"en": "The baby is cute.", "zh": "這個寶寶很可愛。"}]},
+        {"word": "use", "kk": "juz", "zh": "使用", "examples": [{"en": "I use a pencil.", "zh": "我使用鉛筆。"}]},
+        {"word": "you", "kk": "ju", "zh": "你", "examples": [{"en": "I like you.", "zh": "我喜歡你。"}]},
+        {"word": "new", "kk": "nju", "zh": "新的", "examples": [{"en": "I have a new bag.", "zh": "我有一個新書包。"}]},
+        {"word": "music", "kk": "ˋmjuzɪk", "zh": "音樂", "examples": [{"en": "I like music.", "zh": "我喜歡音樂。"}]}
+      ]
+    },
+    {
+      "symbol": "ʃ", "key": "ship", "week": 5,
+      "tip": "嘴唇微圓，像叫人安靜的「噓」，只有氣流，喉嚨不震動。",
+      "compare": "容易和 [tʃ] 搞混：ship 與 chip。ship 只有氣流。",
+      "words": [
+        {"word": "ship", "kk": "ʃɪp", "zh": "大船", "examples": [{"en": "The ship is very big.", "zh": "這艘大船非常大。"}]},
+        {"word": "shop", "kk": "ʃɑp", "zh": "商店", "examples": [{"en": "I go to the shop with Mom.", "zh": "我和媽媽去商店。"}]},
+        {"word": "fish", "kk": "fɪʃ", "zh": "魚", "examples": [{"en": "We eat fish for dinner.", "zh": "我們晚餐吃魚。"}]},
+        {"word": "sheep", "kk": "ʃip", "zh": "綿羊", "examples": [{"en": "The sheep is white.", "zh": "那隻綿羊是白色的。"}]},
+        {"word": "wash", "kk": "wɑʃ", "zh": "洗", "examples": [{"en": "I wash my hands.", "zh": "我洗手。"}]}
+      ]
+    },
+    {
+      "symbol": "tʃ", "key": "chair", "week": 5,
+      "tip": "先停一下再放出氣，像短促的「嚓」。",
+      "compare": "容易和 [ʃ] 搞混：ship 與 chip。chip 開頭有一個短促的爆發。",
+      "words": [
+        {"word": "chair", "kk": "tʃɛr", "zh": "椅子", "examples": [{"en": "Sit on the chair.", "zh": "坐在椅子上。"}]},
+        {"word": "cheese", "kk": "tʃiz", "zh": "起司", "examples": [{"en": "I like cheese pizza.", "zh": "我喜歡起司披薩。"}]},
+        {"word": "lunch", "kk": "lʌntʃ", "zh": "午餐", "examples": [{"en": "We eat lunch at noon.", "zh": "我們中午吃午餐。"}]},
+        {"word": "chip", "kk": "tʃɪp", "zh": "洋芋片", "examples": [{"en": "I like potato chips.", "zh": "我喜歡洋芋片。"}]},
+        {"word": "watch", "kk": "wɑtʃ", "zh": "看；手錶", "examples": [{"en": "I watch TV after dinner.", "zh": "我晚餐後看電視。"}]}
+      ]
+    },
+    {
+      "symbol": "θ", "key": "three", "week": 5,
+      "tip": "舌尖輕放在上下牙齒之間吹氣，喉嚨不震動。",
+      "compare": "和 [ð] 的舌位相同：three 不震動，this 會震動。",
+      "words": [
+        {"word": "three", "kk": "θri", "zh": "三", "examples": [{"en": "I have three friends.", "zh": "我有三個朋友。"}]},
+        {"word": "thank", "kk": "θæŋk", "zh": "謝謝", "examples": [{"en": "Thank you very much.", "zh": "非常謝謝你。"}]},
+        {"word": "think", "kk": "θɪŋk", "zh": "想；認為", "examples": [{"en": "Let me think.", "zh": "讓我想一想。"}]},
+        {"word": "bath", "kk": "bæθ", "zh": "洗澡", "examples": [{"en": "I take a bath every night.", "zh": "我每天晚上洗澡。"}]},
+        {"word": "thin", "kk": "θɪn", "zh": "瘦的；薄的", "examples": [{"en": "The book is thin.", "zh": "這本書很薄。"}]}
+      ]
+    },
+    {
+      "symbol": "ð", "key": "this", "week": 5,
+      "tip": "舌位和 [θ] 相同，但喉嚨會震動，手摸喉嚨可以感覺到。",
+      "compare": "和 [θ] 的舌位相同：this 會震動，three 不會。",
+      "words": [
+        {"word": "this", "kk": "ðɪs", "zh": "這個", "examples": [{"en": "This is my bag.", "zh": "這是我的書包。"}]},
+        {"word": "that", "kk": "ðæt", "zh": "那個", "examples": [{"en": "That is a big dog.", "zh": "那是一隻大狗。"}]},
+        {"word": "they", "kk": "ðe", "zh": "他們", "examples": [{"en": "They are my friends.", "zh": "他們是我的朋友。"}]},
+        {"word": "with", "kk": "wɪð", "zh": "和；跟", "examples": [{"en": "I play with my friends.", "zh": "我和朋友一起玩。"}]},
+        {"word": "then", "kk": "ðɛn", "zh": "然後；那時", "examples": [{"en": "First wash your hands, then eat.", "zh": "先洗手，然後吃飯。"}]}
+      ]
+    },
+    {
+      "symbol": "ŋ", "key": "sing", "week": 5,
+      "tip": "舌根頂住上顎，聲音從鼻子出來，結尾不要加 g 的聲音。",
+      "compare": "sing 的結尾是鼻音「ㄥ」，不是「sing-ㄍ」。",
+      "words": [
+        {"word": "sing", "kk": "sɪŋ", "zh": "唱歌", "examples": [{"en": "I like to sing.", "zh": "我喜歡唱歌。"}]},
+        {"word": "king", "kk": "kɪŋ", "zh": "國王", "examples": [{"en": "The king has a crown.", "zh": "國王戴著皇冠。"}]},
+        {"word": "ring", "kk": "rɪŋ", "zh": "戒指", "examples": [{"en": "She has a gold ring.", "zh": "她有一枚金戒指。"}]},
+        {"word": "long", "kk": "lɔŋ", "zh": "長的", "examples": [{"en": "The snake is long.", "zh": "這條蛇很長。"}]},
+        {"word": "song", "kk": "sɔŋ", "zh": "歌曲", "examples": [{"en": "This song is nice.", "zh": "這首歌很好聽。"}]}
+      ]
+    }
+  ]
+}

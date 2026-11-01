@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KK 音標</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/kk.css">
+</head>
+<body>
+<header class="bar">
+  <a class="home" href="./">← 首頁</a>
+  <h1>KK 音標</h1>
+  <select id="sym" aria-label="跳到音標"><option value="">跳到音標</option></select>
+  <button id="cover" type="button" aria-pressed="false" title="先把音標蓋住，唸完單字再點一下看音標">先唸後看</button>
+  <button id="slow" type="button" aria-pressed="false" title="放慢朗讀速度">🐢 慢速</button>
+  <button id="qz-open" type="button" hidden>聽音練習</button>
+  <button id="pr" type="button">列印 A4</button>
+</header>
+<main id="app">載入中…</main>
+<dialog id="qz" aria-label="聽音練習">
+  <button type="button" class="qclose" data-act="close" aria-label="關閉">✕</button>
+  <div id="qz-body"></div>
+</dialog>
+<script src="js/kk.js"></script>
+</body>
+</html>

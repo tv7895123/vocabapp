@@ -1,0 +1,53 @@
+/* KK 音標頁：沿用 style.css 的紙張、工具列、單字卡、測驗樣式，這裡只放音標頁專用的部分 */
+.bar button[aria-pressed=true]{background:#fff;box-shadow:inset 0 0 0 3px var(--mark)}
+
+/* 「先唸後看」：音標先蓋住，點一下才顯示 */
+.cv{border-radius:6px}
+.covered .cv:not(.show){color:transparent;background:#E3DFD2;cursor:pointer;user-select:none}
+.covered .cv:not(.show):hover,.covered .cv:not(.show):focus-visible{background:var(--mark)}
+
+/* 一覽頁 */
+.intro{margin:0 0 4mm;color:var(--soft);font-size:15px}
+.wk{margin:6mm 0 3mm;font:700 17px "Fredoka","Noto Sans TC",sans-serif}
+.wk small{margin-left:8px;color:var(--soft);font:400 13px "Noto Sans TC",sans-serif}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:3mm}
+.tile{position:relative;border:1.5px solid var(--line);border-radius:12px;background:#fff}
+.tl{display:block;padding:8px 10px;border-radius:11px;color:inherit;text-decoration:none}
+.tl:hover,.tl:focus-visible{background:var(--mark)}
+.tsym{display:block;font:700 30px/1.2 "Fredoka","Noto Sans TC",sans-serif}
+.tkey{color:var(--soft);font-size:14px}
+.tile .say{position:absolute;top:6px;right:6px}
+
+/* 音標頁 */
+.symhead{display:flex;gap:5mm;align-items:center;margin-bottom:5mm;padding:4mm 5mm;border:2px solid var(--ink);border-radius:14px;background:#fff}
+.symbig{flex:none;min-width:30mm;text-align:center;font:700 56px/1.1 "Fredoka","Noto Sans TC",sans-serif}
+.symmeta{flex:1;min-width:0;font-size:14px}
+.keyrow{display:flex;flex-wrap:wrap;align-items:center;gap:2px 6px}
+.keyrow b{color:var(--soft);font-size:13px}
+.kkpage .keyrow .en{font-size:24px}
+.badge{padding:0 8px;border-radius:99px;background:var(--pos);color:#fff;font-size:12px}
+.tip,.cmp{margin:3px 0 0}
+.cmp{color:var(--soft)}
+.practice{margin-top:6px;padding:4px 12px;border:1.5px solid var(--pos);border-radius:99px;background:#fff;color:var(--pos);font:700 14px "Noto Sans TC",sans-serif;cursor:pointer}
+.practice:hover,.practice:focus-visible{background:var(--pos);color:#fff;outline:none}
+.kkpage .card{margin-bottom:3.5mm;padding-bottom:3.5mm}
+.kkpage .en{font-size:28px}
+.kkpage .ex{margin-top:4px}
+.zhi{font-size:18px;font-weight:700}
+
+/* 聽音練習對話框 */
+.qweek{display:flex;flex-wrap:wrap;align-items:center;margin:2px 0}
+.qwk{min-width:3.8em;color:var(--soft);font-size:14px;font-weight:400}
+.opt .osym{font:700 22px "Fredoka","Noto Sans TC",sans-serif}
+.opt small{margin-left:8px;color:var(--soft);font-size:14px}
+
+@media (max-width:820px){
+  .symhead{flex-wrap:wrap;gap:8px 14px}
+  .symbig{min-width:0;font-size:48px}
+  .tiles{grid-template-columns:repeat(2,1fr)}
+}
+
+@media print{
+  .covered .cv:not(.show){color:inherit;background:none}
+  .practice{display:none}
+}

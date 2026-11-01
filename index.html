@@ -3,25 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>國小英語單字本</title>
+<title>國小英語學習</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<header class="bar">
-  <h1>單字本</h1>
-  <input id="q" type="search" placeholder="搜尋單字或中文">
-  <select id="src" hidden aria-label="選擇來源"></select>
-  <select id="sub"><option value="">跳到主題</option></select>
-  <button id="qz-open" type="button" hidden>測驗</button>
-  <button id="pr" type="button">列印 A4</button>
-</header>
-<main id="app">載入中…</main>
-<dialog id="qz" aria-label="隨機測驗">
-  <button type="button" class="qclose" data-act="close" aria-label="關閉">✕</button>
-  <div id="qz-body"></div>
-</dialog>
-<script src="js/app.js"></script>
+<main class="home-wrap">
+  <h1>國小英語學習</h1>
+  <p class="sub">選一個功能開始。</p>
+  <div class="apps">
+    <!-- 之後有新功能，複製一張 <a class="app"> 卡片貼在這裡就好 -->
+    <a class="app" href="vocab.html">
+      <span class="ico">Aa</span>
+      <h2>單字本</h2>
+      <p>依主題學單字，有音標、例句、朗讀，還能隨機測驗。</p>
+      <span class="go">開始學單字</span>
+    </a>
+    <a class="app" href="kk.html">
+      <span class="ico">[æ]</span>
+      <h2>KK 音標</h2>
+      <p>先聽、先唸熟悉的單字，再認音標。每個音標都有 5 個單字、例句和朗讀。</p>
+      <span class="go">開始學音標</span>
+    </a>
+  </div>
+</main>
 </body>
 </html>

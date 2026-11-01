@@ -5,6 +5,8 @@ body{margin:0;background:var(--desk);color:var(--ink);font:16px/1.6 "Noto Sans T
 
 /* toolbar (screen only) */
 .bar{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px 16px;background:var(--ink);color:#fff}
+.bar a.home{padding:6px 12px;border-radius:8px;background:rgba(255,255,255,.18);color:#fff;font-size:15px;text-decoration:none}
+.bar a.home:hover,.bar a.home:focus-visible{background:var(--mark);color:var(--ink)}
 .bar h1{font:700 20px "Fredoka","Noto Sans TC",sans-serif;margin:0 auto 0 0}
 .bar input,.bar select,.bar button{font:inherit;font-size:15px;padding:6px 10px;border:0;border-radius:8px}
 .bar input{flex:1 1 140px;min-width:0;max-width:240px}
